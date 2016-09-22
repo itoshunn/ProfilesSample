@@ -10,20 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var InputName: UITextField!
+    @IBOutlet weak var InputName: UITextField! // 名前入力欄
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
 
+    // 画面遷移の準備
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // SecondViewController と関連付けする
         let controller:SecondViewController = segue.destination as! SecondViewController
+        
+        // 入力した内容を渡す
         controller.strName = InputName.text
         
     }
