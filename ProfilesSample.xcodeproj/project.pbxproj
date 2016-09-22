@@ -14,6 +14,7 @@
 		1647BBA31D900DC300EA74C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1647BBA11D900DC300EA74C3 /* LaunchScreen.storyboard */; };
 		1647BBAE1D900DC300EA74C3 /* ProfilesSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1647BBAD1D900DC300EA74C3 /* ProfilesSampleTests.swift */; };
 		1647BBB91D900DC300EA74C3 /* ProfilesSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1647BBB81D900DC300EA74C3 /* ProfilesSampleUITests.swift */; };
+		1647BBC71D9382C800EA74C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1647BBC61D9382C800EA74C3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1647BBB41D900DC300EA74C3 /* ProfilesSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfilesSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1647BBB81D900DC300EA74C3 /* ProfilesSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesSampleUITests.swift; sourceTree = "<group>"; };
 		1647BBBA1D900DC300EA74C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1647BBC61D9382C800EA74C3 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1647BB9F1D900DC300EA74C3 /* Assets.xcassets */,
 				1647BBA11D900DC300EA74C3 /* LaunchScreen.storyboard */,
 				1647BBA41D900DC300EA74C3 /* Info.plist */,
+				1647BBC61D9382C800EA74C3 /* SecondViewController.swift */,
 			);
 			path = ProfilesSample;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1647BBC71D9382C800EA74C3 /* SecondViewController.swift in Sources */,
 				1647BB9B1D900DC300EA74C3 /* ViewController.swift in Sources */,
 				1647BB991D900DC300EA74C3 /* AppDelegate.swift in Sources */,
 			);
@@ -512,6 +516,7 @@
 				1647BBBF1D900DC300EA74C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1647BBC01D900DC300EA74C3 /* Build configuration list for PBXNativeTarget "ProfilesSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				1647BBC21D900DC300EA74C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1647BBC31D900DC300EA74C3 /* Build configuration list for PBXNativeTarget "ProfilesSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				1647BBC51D900DC300EA74C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
