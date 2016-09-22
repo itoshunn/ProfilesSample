@@ -92,15 +92,18 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="InputName" destination="UvA-3b-xYP" id="0ka-y8-QFO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="hJz-n6-PQp">
             <objects>
-                <viewController id="Ljb-mM-HnX" sceneMemberID="viewController">
+                <viewController id="Ljb-mM-HnX" customClass="SecondViewController" customModule="ProfilesSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xwt-bp-Wqc"/>
                         <viewControllerLayoutGuide type="bottom" id="QU5-9g-yzN"/>
@@ -148,6 +151,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="LabelName" destination="bYo-lg-ujb" id="NWK-GU-pqJ"/>
+                        <outlet property="LabelPercent" destination="xSO-Xo-sV9" id="AwV-Iy-ztt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p97-Um-kfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
